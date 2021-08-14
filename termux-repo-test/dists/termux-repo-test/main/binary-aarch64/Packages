@@ -1,0 +1,13 @@
+Package: termux-pkg-test
+Version: 1.0
+Architecture: aarch64
+Maintainer: iamryanjdecker
+Description: termux package test
+Homepage: http://iamryanjdecker.com
+Filename: dists/termux-repo-test/main/binary-aarch64/termux-pkg-test_1.0_aarch64.deb
+Size: 708
+MD5Sum: 5e4525dfa6105690494faa8313e3ee7a
+SHA1: beed1fe83d6e826c2bd9b96f0ae9012ff4073116
+SHA256: 7aed8d496157049379ccfd5a044ef6d03b2b8633cb2cb1727176ebcbb7298369
+SHA512: eed031d0c22d92312ef080d8db621576c853c4f17b02762eeb7e280f1f53362f0a01037910dc3edb332c50b2ada8da007aa81c5128673cebab012b5eff20a99c
+

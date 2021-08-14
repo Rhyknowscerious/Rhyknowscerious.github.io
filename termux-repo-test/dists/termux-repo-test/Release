@@ -1,0 +1,26 @@
+Codename: termux
+Version: 1
+Architectures: aarch64
+Description: termux-repo-test repository
+Suite: termux-repo-test
+Date: Sat, 14 Aug 2021 00:31:19 UTC
+MD5Sum:
+ 41f8aa49e81ea3ffbc46fb1123dd36d0 550 main/binary-aarch64/Packages
+ 05b3a81ffb120b650376bfb72f172125 460 main/binary-aarch64/Packages.xz
+ 3e5349c6b58edb4789f629cd1bed7c37 97 main/Contents-aarch64
+ cefcd576dd49c036ee0d3617fe24bb26 116 main/Contents-aarch64.xz
+SHA1:
+ 5d80bbed1b0240ddef9604373f726bb117d167b8 550 main/binary-aarch64/Packages
+ 23d79315ab1df885728cab87fabf34c86c8542bd 460 main/binary-aarch64/Packages.xz
+ f1826adb83f86777f34e5cf351e1ecab93219a07 97 main/Contents-aarch64
+ 6ca1880befa941bdef5c2148b145b29a93311ba8 116 main/Contents-aarch64.xz
+SHA256:
+ 57d9845d87ee78f50cf41a16f40821fbbe9fe5379bfdfd5d3f31c93b0973e508 550 main/binary-aarch64/Packages
+ c5a14258308dcfba97936130beeba1597cb52db66320d07b35972a7110f1b9d8 460 main/binary-aarch64/Packages.xz
+ 551c77a981bafb6dece3a97cc0b1c58bb2ea48239dce65c57bdb0095f7f8c466 97 main/Contents-aarch64
+ 4f3b66ec59689e37982d9aae91e9acadcbdc833a4b04bab4da43439f29c579b4 116 main/Contents-aarch64.xz
+SHA512:
+ 776ee973776da69724fb6c62c71f1ca526e039b47c838542ce89b1ea103bb1aa95c1e50364f786449d21207b0f1130fe4f1bdeaa1bbab6ed8c7b5621bca8de40 550 main/binary-aarch64/Packages
+ 263481d647c7f0bf0b20e30c914175e37acf2830093ae40d0867af7b44dda530f9f049c8325fdc35b75db83412bc5b6dc6230c07906c220291a87f8acd07a890 460 main/binary-aarch64/Packages.xz
+ c9e0def3bfc49258737164fb5adf3cf268240084ccb34420a848d6033939d42fc263e57df3c31669782afab3a8325a57bcad81ce0a1f41c2dc3eb287f1d5743c 97 main/Contents-aarch64
+ da09f5bbf3fa3039841173dbd5d9bae416edd13019a23aa984db17e0b030b994749453f22c743a13b68b375e1b188115e3854724923a9c8da548b921ae3387d2 116 main/Contents-aarch64.xz
