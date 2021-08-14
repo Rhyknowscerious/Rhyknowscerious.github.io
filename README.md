@@ -1,1 +1,1 @@
-# (https://Rhyknowscerious.github.io)
+# https://Rhyknowscerious.github.io
