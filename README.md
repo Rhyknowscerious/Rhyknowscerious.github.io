@@ -1,2 +1,1 @@
-# Rhyknowscerious.github.io
-My site
+# (https://Rhyknowscerious.github.io)
