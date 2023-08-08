@@ -1,0 +1,27 @@
+Codename: termux
+Version: 1
+Architectures: all
+Description: tsds repository
+Suite: tsds
+Date: Tue, 08 Aug 2023 08:32:21 UTC
+Components: main
+MD5Sum:
+ 5ab9e51df699e1adbca57b9e53d8f957 630 main/binary-all/Packages
+ 0346c3e552ddd8df969c62da1b889b66 528 main/binary-all/Packages.xz
+ 58dc241b8ad82a72ad2f509181e9bceb 2926 main/Contents-all
+ dbdc5e665b3a4e2194ca54369dc90f98 456 main/Contents-all.xz
+SHA1:
+ a2f412806e42b08200494362f8c3c854ccabc5a8 630 main/binary-all/Packages
+ 4d78b0eea8df141ca98f617a0927d206491af1c2 528 main/binary-all/Packages.xz
+ d1b8df04b9a6fbc6d6447077dd78d2cc76a2fc63 2926 main/Contents-all
+ c3cd5a51e8446e421446655805780bdddd355edc 456 main/Contents-all.xz
+SHA256:
+ ae81b5518eb495d6552b63282fd0fafb255e843266c6842d3c6edd9ee7b8b5a8 630 main/binary-all/Packages
+ 633c1833f948c08e77c7d8941b8d8a62e5d691ebd811a2b18949e4205084ecb5 528 main/binary-all/Packages.xz
+ 80339fc0753be6a84ba03cf351930cd0ed05136caccf406ea4981b2ccebc4283 2926 main/Contents-all
+ 6eba6848df8dd9f13ee90109f8ae7ef7b2f7f5f89099c092097b01981a571411 456 main/Contents-all.xz
+SHA512:
+ c94959a1a864af35418c6eb937ee98fe6978357b4e452e9bc491311ca6a5afe5efa1a18a79edd4d86231511fde971d8b09d69b1a85fde188df10bc63f52ccd86 630 main/binary-all/Packages
+ 3918df3da02cccb61d384c7307563be50067aadc3379eb66e8b464825d65907c7d118bebd92d670eac6b32d92c0f5ed973cd5177192cc88ada8db429596e484c 528 main/binary-all/Packages.xz
+ 4151cb104816ba8b1579aba5708385da12b487cfb04002cfedfb442a90036653cc5de9fa7a6599201d9797926f48b7dab847d11011b5046bc301287b18f363d3 2926 main/Contents-all
+ ed3d0cfadc631c91a5ebe9372bfd501e03b64574c9d3c02499054a94d452e70f69629fed84f6330ccd9e6a2ed3eed2c71eee0700711b1b6647cfe820f76411a6 456 main/Contents-all.xz
