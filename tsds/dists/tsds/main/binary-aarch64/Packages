@@ -1,0 +1,14 @@
+Package: tsds
+Version: 0.1.1
+Architecture: aarch64
+Maintainer: @Rhyknowscerious
+Installed-Size: 151
+Homepage: https://rhyknowscerious.github.io/
+Description: Termux Simple Desired State (tsds) is a desired state utility for termux designed for simple configuration.
+Filename: dists/tsds/main/binary-aarch64/tsds_0.1.1_aarch64.deb
+Size: 119764
+MD5Sum: fab1c2a76fd3819930f6cc0e5c3ef9bc
+SHA1: 3f57bb0618aa9fba5fe464430830d23ae5d91d90
+SHA256: 6f947c3bbdfe2128ce2dfaf9b87e221e134039870d31fa07e375b5dce63e2503
+SHA512: 030a22ef27d2b1aedc601d9d3676f3ff8a606a21c54b052102ad1373a85077425b8f825e03dc3ef60d73eefbaf544139bfc384e8d271ab9b01da1f974977bd1c
+
