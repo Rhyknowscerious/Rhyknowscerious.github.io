@@ -6,6 +6,10 @@
 
 The app name `tsds` is an abbreviation for `Termux Simple Desired State`. It allows you to create a single git repository for your termux configuration. It allows you to only spend your time setting up your config once so that if you have to re-install Termux or install Termux on a new device, you don't have to waste a bunch of time writing your dot files, installing your favorite apps, re-making shortcuts for your Android widget for Termux, etc. If you don't load a configuration, it creates a blank one for you. The configuration sits at `~/.tsds` by default and consists of specific directories and files that `tsds` will look for.
 
+This is inspired by enterprise grade state configuration software like ansible but instead of managing a fleet of 100s or 1000s of devices, this configures one at a time and is designed specifically for Turmux installed on non-rooted phones. It probably works on rooted phones just fine too but I haven't done any root-specific testing. 
+
+The current release 1.0.0 will apply your configuration but it won't tear-down so any apps you configure to install with this software will need to be un-done/removed/uninstalled manually. Make sure to backup any files with names matching patterns `~/.*`, `~/.shortcuts/*`, or `$PREFIX/etc/apt/sources.list.d/tsds.list` if you don't want them to be overwritten. Overwrites should be prompted for confirmation so nothing gets deleted without your input but still back your files up before running `tsds` _just in case_.
+
 ### How to install tsds:
 
 ```sh
@@ -58,10 +62,10 @@ You have three options:
    - Put scirpts in here that you'd like to see in the Android homescreen widget for Termux.
    - When running `tsds` all the scripts in `~/.tsds/widget/.shortcuts` are copied into `~/.shortcuts`. These are copied instead of linked symbolically because for some reason the widget won't read symbolic links from the tsds configuration locations.
 
-#### When your configuration is ready execute tsds
+#### When your configuration is ready apply, just execute tsds
 
 ```sh
-# Execute tsds without updating pkg packages
+# Execute tsds without updating pkg packages (for example you recently did a `pkg update`)
 tsds
 
 # or
