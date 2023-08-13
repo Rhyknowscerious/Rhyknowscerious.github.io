@@ -6,9 +6,32 @@
 
 The app name `tsds` is an abbreviation for `Termux Simple Desired State`. It allows you to create a single git repository for your termux configuration. It allows you to only spend your time setting up your config once so that if you have to re-install Termux or install Termux on a new device, you don't have to waste a bunch of time writing your dot files, installing your favorite apps, re-making shortcuts for your Android widget for Termux, etc. If you don't load a configuration, it creates a blank one for you. The configuration sits at `~/.tsds` by default and consists of specific directories and files that `tsds` will look for.
 
-This is inspired by enterprise grade state configuration software like ansible but instead of managing a fleet of 100s or 1000s of devices, this configures one at a time and is designed specifically for Turmux installed on non-rooted phones. It probably works on rooted phones just fine too but I haven't done any root-specific testing. 
+Install termux from fdroid before you try to use this `tsds`.
+
+This is inspired by enterprise grade state configuration software like ansible, terragrunt, and terraform but instead of managing a fleet of 100s or 1000s of devices, this configures one at a time and is designed specifically for Turmux installed on non-rooted phones. It probably works on rooted phones just fine too but I haven't done any root-specific testing. 
 
 The current release 1.0.0 will apply your configuration but it won't tear-down so any apps you configure to install with this software will need to be un-done/removed/uninstalled manually. Make sure to backup any files with names matching patterns `~/.*`, `~/.shortcuts/*`, or `$PREFIX/etc/apt/sources.list.d/tsds.list` if you don't want them to be overwritten. Overwrites should be prompted for confirmation so nothing gets deleted without your input but still back your files up before running `tsds` _just in case_.
+
+For a quick and dirty demo, here is how a full install and quick demonstration looks (don't do this until you read the rest of the doc though, so you can actually know what will happen). The example configuration adds the apt repo for tsds, adds a test dot file in the user's home directory that does nothing, installs some commonly used pkg/apt packages, and adds my favorite apps which don't have an apt package for termux including proot-distro archlinux, ansible, terraform, awscli 2, homebridge, and powershell, yes powershell.
+
+```sh
+# WARNING don't run this without reading the whole readme.md file! This might change your termux environment.
+
+# Install the apt repo for tsds (no it's not gpg signed - see I told you read this stuff first)
+echo "deb [trusted=yes] https://rhyknowscerious.github.io/tsds tsds main" > $PREFIX/etc/apt/sources.list.d/tsds.list
+
+# Use pkg to update/upgrade your system
+pkg update && pkg upgrade
+
+# Install tsds
+pkg install tsds
+
+# Load a configuration
+git clone git clone https://bitbucket.org/Rhyknowscerious/tsds-config.git ~/.tsds
+
+# apply the configuration
+tsds
+```
 
 ### How to install tsds:
 
